@@ -40,7 +40,7 @@ export default {
   },
   methods: {
     appSelect: function (selection) {
-      if (selection == 'Species Mapper') window.location = 'https://maps.nps.gov/species/';
+      if (selection == 'Species Mapper') window.location = '//species.atlasofthesmokies.org/';
     }
   }
 }
