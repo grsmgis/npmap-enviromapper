@@ -9,7 +9,7 @@ var subNavZ, headerZ, divHeader, divSubNav,
     ],
     overlays: [{
       name: 'Trails',
-      url: 'https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/GRSM_TRAILS/FeatureServer/0/query?f=geojson&outSR=4326&where=OBJECTID%20IS%20NOT%20NULL&outFields=TRAILNAME',
+      url: 'https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/GRSM_TRAILS/FeatureServer/0/query?f=geojson&outSR=4326&where=OBJECTID%20IS%20NOT%20NULL&outFields=NAME',
       type: 'geojson',
       popup: {
         description: '<div style="text-align: center">{{TRAILNAME}}</div>'
@@ -93,9 +93,9 @@ var subNavZ, headerZ, divHeader, divSubNav,
         }
       }
     }],
-    zoom: 10,
+    zoom: 11,
     center: { lat: 35.6, lng: -83.52 },
-    minZoom: 10,
+    minZoom: 11,
     maxZoom: 16,
     maxBounds: [
       { lat: 35, lng: -84.5 },
@@ -107,11 +107,9 @@ var subNavZ, headerZ, divHeader, divSubNav,
     measureControl: true,
     scaleControl: { metric: true },
     events: [{
-      fn: function(evt) {
-        if (typeof currentBaseLayer != "undefined") {
-            if(evt.layer._leaflet_id === currentBaseLayer._leaflet_id) {
-              drawData();
-            }
+      fn: function (evt) {
+        if (currentBaseLayer && evt.layer._leaflet_id === currentBaseLayer._leaflet_id) {
+          drawData();
         }
       },
       type: 'layeradd'

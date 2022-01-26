@@ -18,10 +18,10 @@ function createPopup(li) {
         },
         tooltip: li._common.replace(/_/g, ' '),
         styles: {
-        point: {
-            'marker-color': '#1d909b',
-            'marker-size': 'medium'
-        }
+            point: {
+                'marker-color': '#1d909b',
+                'marker-size': 'medium'
+            }
         },
         cluster: {
             clusterIcon: '#1d909b'
