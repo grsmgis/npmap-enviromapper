@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="left">
+    <div class="left" style="padding: 10px 0 0 15px">
       <a
         id="title"
         href="https://www.nps.gov/grsm/learn/nature/index.htm"
-        style="text-decoration: none"
+        style="text-decoration: none; height: 36px"
         target="_blank"
       >
         <h1>Great Smoky Mountains National Park</h1>
@@ -17,11 +17,12 @@
           display: inline-block;
           font-size: 19px;
           font-family: 'Source Sans Pro';
+          margin-top: 5px;
         "
       >
         ATLAS OF THE SMOKIES:
       </div>
-      <div style="margin-left: 230px; margin-top: 18px" id="atlas-app-changer">
+      <div style="margin-left: 230px; margin-top: 9px" id="atlas-app-changer">
         <multiselect
           class="header-selector"
           v-model="selected"
@@ -57,7 +58,7 @@ export default {
   methods: {
     appSelect: function (selection) {
       if (selection == "Species Mapper")
-        window.location = "https://science.nature.nps.gov/parks/grsm/species/";
+        window.location = "https://species.atlasofthesmokies.org/";
     },
   },
 };
