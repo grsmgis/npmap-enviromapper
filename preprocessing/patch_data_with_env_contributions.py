@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """Data patcher
 
@@ -27,10 +27,13 @@ short_to_long_name = {
 if __name__ == '__main__':
     arguments = docopt(__doc__)
     with open(arguments['<data_file>']) as fp:
+        print('data:', arguments['<data_file>'])
         data = json.load(fp)
     with open(arguments['<irma_mappings_file>']) as fp:
+        print('irma:', arguments['<irma_mappings_file>'])
         irma_mappings = json.load(fp)
     with open(arguments['<env_stats_file>']) as fp:
+        print('env:', arguments['<env_stats_file>'])
         temp = fp.readlines()
         temp = [i.strip().split() for i in temp]
         
@@ -41,11 +44,13 @@ if __name__ == '__main__':
             else:
                 env_stats[i[0]] = [[i[1], i[2]]]
 
-    for k, v in data.iteritems():
+    for k, v in data.items():
+        print(k, v)
         if k in short_to_long_name and short_to_long_name[k] in env_stats:
             _long = short_to_long_name[k]
             data[k]['related-species'] = []
             for i, species in enumerate(env_stats[_long]):
+                print(i)
                 latin = env_stats[_long][i][0]
                 contrib = env_stats[_long][i][1]
                 id = irma_mappings[latin]['id']
@@ -55,10 +60,3 @@ if __name__ == '__main__':
 
     with open(arguments['<data_file>'], 'w') as fp:
         json.dump(data, fp, indent=4, separators=(',', ': '))
-            
-
-    
-
-
-
-

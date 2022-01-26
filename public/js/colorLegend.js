@@ -4,10 +4,10 @@ function toggleBlending() {
   blendingActive = !blendingActive;
 
   $('div', '#legend-blend-switch-button').stop();
-  if(blendingActive) {
-    $('div', '#legend-blend-switch-button').animate({left: '25px'});
+  if (blendingActive) {
+    $('div', '#legend-blend-switch-button').animate({ left: '25px' });
   } else {
-    $('div', '#legend-blend-switch-button').animate({left: '0px'});
+    $('div', '#legend-blend-switch-button').animate({ left: '0px' });
   }
 
   drawData();
@@ -37,10 +37,10 @@ function addEnviro(environment)
 }
 */
 function drawData() {
-  for(var i = 0; i < order.length; i++) {
+  for (var i = 0; i < order.length; i++) {
     var idx = order[i],
       color;
-    switch(idx) {
+    switch (idx) {
       case 0:
         color = '_blue';
         break;
@@ -54,20 +54,39 @@ function drawData() {
         return;
     }
 
-    if(control._selectedSpecies[idx] !== undefined) {
-      if(showPredicted && control._selectedSpecies[idx].visible) {
+    if (control._selectedSpecies[idx] !== undefined) {
+      if (showPredicted && control._selectedSpecies[idx].visible) {
         try {
           NPMap.config.L.removeLayer(control._selectedSpecies[idx].predicted);
-        } catch(e) {}
+        } catch (e) { }
       }
 
+      let specid = control._selectedSpecies[idx]._id;
+      let geoJSON = undefined;
+      console.log('Attempting to fetch species mbtiles... id is:', specid);
+      $.ajax({
+        url: `https://atlas-stg.geoplatform.gov/v4/atlas-user.${specid}${color}.json?access_token=pk.eyJ1IjoiYXRsYXMtdXNlciIsImEiOiJjazFmdGx2bjQwMDAwMG5wZmYwbmJwbmE2In0.lWXK2UexpXuyVitesLdwUg`,
+        type : "get",
+        async: false,
+        success : function(response) {
+          geoJSON = response;
+        },
+        error: function() {
+          console.log(`Could not find tiles for ${specid}${color}`);
+        }
+      });
+      console.log(geoJSON);
+      if (!geoJSON) {
+        console.warn(`Tiles for ${specid}${color} are not available.`);
+        return;
+      }
       control._selectedSpecies[idx].predicted = L.npmap.layer.mapbox({
         name: control._selectedSpecies[idx]._latin,
         opacity: blendingActive ? .5 : 1,
-        id: 'nps.GRSM_' + control._selectedSpecies[idx]._id + color
+        tileJson: geoJSON,
       });
 
-      if(showPredicted && control._selectedSpecies[idx].visible) {
+      if (showPredicted && control._selectedSpecies[idx].visible) {
         control._selectedSpecies[idx].predicted.addTo(NPMap.config.L);
       }
     }
@@ -75,10 +94,10 @@ function drawData() {
 }
 
 function reorderLayers() {
-  $('#legend-species').children().each(function(idx) {
+  $('#legend-species').children().each(function (idx) {
     var value;
 
-    switch(this.id) {
+    switch (this.id) {
       case 'legend-species-pink':
         value = 0;
         break;

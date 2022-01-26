@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import numpy as np
 from PIL import Image
@@ -33,4 +33,3 @@ if __name__ == '__main__':
         img = Image.fromarray(img)
         img2 = img.convert('L')
         img2.save(out)
-

@@ -42,3 +42,4 @@ for color in {1..2}; do
     # skipping water
 done
 
+rm tmp/vegetation_*.tif

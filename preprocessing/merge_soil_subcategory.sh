@@ -15,3 +15,5 @@ for i in `ls -a tmp/soil_drainage_class_*2.tif`; do
     cp $i sublayers/$name.tif
     counter=$(( counter+1 ))
 done;
+
+rm tmp/soil_drainage_class_*.tif

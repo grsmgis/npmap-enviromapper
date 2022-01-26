@@ -1,0 +1,1823 @@
++ '[' 3 -ne 3 ']'
++ '[' '!' -d tmp ']'
++ numeric_check=FCSUBTYPE
++ layer=cat_geology
++ variable_name=GLG_NAME_1
++ counter=0
++ cat layers/cat_geology.geojson
++ grep GLG_NAME_1
++ grep -oh ': ".*"'
++ sed -n 's/: "\(.*\)"/\1/p'
++ sort
++ uniq
++ read -r line
++ echo Amphibolite
++ [[ Amphibolite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Amphibolite
+++ dos2unix
++ line=Amphibolite
++ echo Amphibolite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Amphibolite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Amphibolite
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
++ line=amphibolite
++ gdal_translate tmp/temp.tif tmp/cat_geology_amphibolite_1.tif
++ counter=1
++ read -r line
++ echo Anakeesta Formation
++ [[ Anakeesta Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Anakeesta Formation
+++ dos2unix
++ line='Anakeesta Formation'
++ echo Anakeesta Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Anakeesta Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Anakeesta Formation
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=anakeesta_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_anakeesta_formation_1.tif
++ counter=2
++ read -r line
++ echo Anakeesta 'Formation;' ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone
++ [[ Anakeesta Formation; ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Anakeesta 'Formation;' ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone
+++ dos2unix
++ line='Anakeesta Formation; ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone'
++ echo Anakeesta 'Formation;' ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Anakeesta Formation; ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Anakeesta 'Formation;' ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=anakeesta_formation_ankerite-rich_metasandstone_and_sandy_dolomite_chloritoid_metasiltstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_anakeesta_formation_ankerite-rich_metasandstone_and_sandy_dolomite_chloritoid_metasiltstone_1.tif
++ counter=3
++ read -r line
++ echo Anakeesta 'Formation;' metagraywacke interbedded with metasiltstone
++ [[ Anakeesta Formation; metagraywacke interbedded with metasiltstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Anakeesta 'Formation;' metagraywacke interbedded with metasiltstone
+++ dos2unix
++ line='Anakeesta Formation; metagraywacke interbedded with metasiltstone'
++ echo Anakeesta 'Formation;' metagraywacke interbedded with metasiltstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Anakeesta Formation; metagraywacke interbedded with metasiltstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Anakeesta 'Formation;' metagraywacke interbedded with metasiltstone
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=anakeesta_formation_metagraywacke_interbedded_with_metasiltstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_anakeesta_formation_metagraywacke_interbedded_with_metasiltstone_1.tif
++ counter=4
++ read -r line
++ echo Anakeesta 'Formation;' slate containing small dark elliptical porphyroblasts of chloritoid
++ [[ Anakeesta Formation; slate containing small dark elliptical porphyroblasts of chloritoid == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Anakeesta 'Formation;' slate containing small dark elliptical porphyroblasts of chloritoid
+++ dos2unix
++ line='Anakeesta Formation; slate containing small dark elliptical porphyroblasts of chloritoid'
++ echo Anakeesta 'Formation;' slate containing small dark elliptical porphyroblasts of chloritoid
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Anakeesta Formation; slate containing small dark elliptical porphyroblasts of chloritoid'\''' layers/cat_geology.geojson tmp/temp.tif
+++ sed 's/ /_/g'
+++ echo Anakeesta 'Formation;' slate containing small dark elliptical porphyroblasts of chloritoid
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
++ line=anakeesta_formation_slate_containing_small_dark_elliptical_porphyroblasts_of_chloritoid
++ gdal_translate tmp/temp.tif tmp/cat_geology_anakeesta_formation_slate_containing_small_dark_elliptical_porphyroblasts_of_chloritoid_1.tif
++ counter=5
++ read -r line
++ echo Biotite augen gneiss
++ [[ Biotite augen gneiss == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Biotite augen gneiss
+++ dos2unix
++ line='Biotite augen gneiss'
++ echo Biotite augen gneiss
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Biotite augen gneiss'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Biotite augen gneiss
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=biotite_augen_gneiss
++ gdal_translate tmp/temp.tif tmp/cat_geology_biotite_augen_gneiss_1.tif
++ counter=6
++ read -r line
++ echo Blockhouse Shale
++ [[ Blockhouse Shale == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Blockhouse Shale
+++ dos2unix
++ line='Blockhouse Shale'
++ echo Blockhouse Shale
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Blockhouse Shale'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Blockhouse Shale
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=blockhouse_shale
++ gdal_translate tmp/temp.tif tmp/cat_geology_blockhouse_shale_1.tif
++ counter=7
++ read -r line
++ echo Cades Sandstone
++ [[ Cades Sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Cades Sandstone
+++ dos2unix
++ line='Cades Sandstone'
++ echo Cades Sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Cades Sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Cades Sandstone
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=cades_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_cades_sandstone_1.tif
++ counter=8
++ read -r line
++ echo Cades 'Sandstone;' boulder conglomerate
++ [[ Cades Sandstone; boulder conglomerate == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Cades 'Sandstone;' boulder conglomerate
+++ dos2unix
++ line='Cades Sandstone; boulder conglomerate'
++ echo Cades 'Sandstone;' boulder conglomerate
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Cades Sandstone; boulder conglomerate'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Cades 'Sandstone;' boulder conglomerate
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
++ line=cades_sandstone_boulder_conglomerate
++ gdal_translate tmp/temp.tif tmp/cat_geology_cades_sandstone_boulder_conglomerate_1.tif
++ counter=9
++ read -r line
++ echo Cades 'Sandstone;' siltstone interbedded with fine-grained metasandstone
++ [[ Cades Sandstone; siltstone interbedded with fine-grained metasandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Cades 'Sandstone;' siltstone interbedded with fine-grained metasandstone
+++ dos2unix
++ line='Cades Sandstone; siltstone interbedded with fine-grained metasandstone'
++ echo Cades 'Sandstone;' siltstone interbedded with fine-grained metasandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Cades Sandstone; siltstone interbedded with fine-grained metasandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Cades 'Sandstone;' siltstone interbedded with fine-grained metasandstone
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
++ line=cades_sandstone_siltstone_interbedded_with_fine-grained_metasandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_cades_sandstone_siltstone_interbedded_with_fine-grained_metasandstone_1.tif
++ counter=10
++ read -r line
++ echo Cochran Formation
++ [[ Cochran Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Cochran Formation
+++ dos2unix
++ line='Cochran Formation'
++ echo Cochran Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Cochran Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Cochran Formation
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=cochran_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_cochran_formation_1.tif
++ counter=11
++ read -r line
++ echo Copperhill Formation
++ [[ Copperhill Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Copperhill Formation
+++ dos2unix
++ line='Copperhill Formation'
++ echo Copperhill Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Copperhill Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Copperhill Formation
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
++ line=copperhill_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_copperhill_formation_1.tif
++ counter=12
++ read -r line
++ echo Copperhill 'Formation;' metasiltstone, interbedded with metagraywacke
++ [[ Copperhill Formation; metasiltstone, interbedded with metagraywacke == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Copperhill 'Formation;' metasiltstone, interbedded with metagraywacke
+++ dos2unix
++ line='Copperhill Formation; metasiltstone, interbedded with metagraywacke'
++ echo Copperhill 'Formation;' metasiltstone, interbedded with metagraywacke
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Copperhill Formation; metasiltstone, interbedded with metagraywacke'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Copperhill 'Formation;' metasiltstone, interbedded with metagraywacke
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=copperhill_formation_metasiltstone_interbedded_with_metagraywacke
++ gdal_translate tmp/temp.tif tmp/cat_geology_copperhill_formation_metasiltstone_interbedded_with_metagraywacke_1.tif
++ counter=13
++ read -r line
++ echo Copperhill 'Formation;' quartz-muscovite schist and phyllite interbedded with metagraywacke
++ [[ Copperhill Formation; quartz-muscovite schist and phyllite interbedded with metagraywacke == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Copperhill 'Formation;' quartz-muscovite schist and phyllite interbedded with metagraywacke
+++ dos2unix
++ line='Copperhill Formation; quartz-muscovite schist and phyllite interbedded with metagraywacke'
++ echo Copperhill 'Formation;' quartz-muscovite schist and phyllite interbedded with metagraywacke
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Copperhill Formation; quartz-muscovite schist and phyllite interbedded with metagraywacke'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Copperhill 'Formation;' quartz-muscovite schist and phyllite interbedded with metagraywacke
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
++ line=copperhill_formation_quartz-muscovite_schist_and_phyllite_interbedded_with_metagraywacke
++ gdal_translate tmp/temp.tif tmp/cat_geology_copperhill_formation_quartz-muscovite_schist_and_phyllite_interbedded_with_metagraywacke_1.tif
++ counter=14
++ read -r line
++ echo Elkmont Sandstone
++ [[ Elkmont Sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Elkmont Sandstone
+++ dos2unix
++ line='Elkmont Sandstone'
++ echo Elkmont Sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Elkmont Sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Elkmont Sandstone
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=elkmont_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_elkmont_sandstone_1.tif
++ counter=15
++ read -r line
++ echo Elkmont 'Sandstone;' metasandstone and metaconglomerate
++ [[ Elkmont Sandstone; metasandstone and metaconglomerate == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Elkmont 'Sandstone;' metasandstone and metaconglomerate
+++ dos2unix
++ line='Elkmont Sandstone; metasandstone and metaconglomerate'
++ echo Elkmont 'Sandstone;' metasandstone and metaconglomerate
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Elkmont Sandstone; metasandstone and metaconglomerate'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Elkmont 'Sandstone;' metasandstone and metaconglomerate
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=elkmont_sandstone_metasandstone_and_metaconglomerate
++ gdal_translate tmp/temp.tif tmp/cat_geology_elkmont_sandstone_metasandstone_and_metaconglomerate_1.tif
++ counter=16
++ read -r line
++ echo Helenmode Formation
++ [[ Helenmode Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Helenmode Formation
+++ dos2unix
++ line='Helenmode Formation'
++ echo Helenmode Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Helenmode Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Helenmode Formation
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=helenmode_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_helenmode_formation_1.tif
++ counter=17
++ read -r line
++ echo Hesse Quartzite
++ [[ Hesse Quartzite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Hesse Quartzite
+++ dos2unix
++ line='Hesse Quartzite'
++ echo Hesse Quartzite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Hesse Quartzite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Hesse Quartzite
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=hesse_quartzite
++ gdal_translate tmp/temp.tif tmp/cat_geology_hesse_quartzite_1.tif
++ counter=18
++ read -r line
++ echo Hornblende-biotite gneiss
++ [[ Hornblende-biotite gneiss == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Hornblende-biotite gneiss
+++ dos2unix
++ line='Hornblende-biotite gneiss'
++ echo Hornblende-biotite gneiss
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Hornblende-biotite gneiss'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Hornblende-biotite gneiss
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=hornblende-biotite_gneiss
++ gdal_translate tmp/temp.tif tmp/cat_geology_hornblende-biotite_gneiss_1.tif
++ counter=19
++ read -r line
++ echo Jonesboro Limestone
++ [[ Jonesboro Limestone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Jonesboro Limestone
+++ dos2unix
++ line='Jonesboro Limestone'
++ echo Jonesboro Limestone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Jonesboro Limestone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Jonesboro Limestone
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=jonesboro_limestone
++ gdal_translate tmp/temp.tif tmp/cat_geology_jonesboro_limestone_1.tif
++ counter=20
++ read -r line
++ echo Licklog Formation
++ [[ Licklog Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Licklog Formation
+++ dos2unix
++ line='Licklog Formation'
++ echo Licklog Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Licklog Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Licklog Formation
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=licklog_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_licklog_formation_1.tif
++ counter=21
++ read -r line
++ echo Licklog 'Formation;' conglomeratic sandstone
++ [[ Licklog Formation; conglomeratic sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Licklog 'Formation;' conglomeratic sandstone
+++ dos2unix
++ line='Licklog Formation; conglomeratic sandstone'
++ echo Licklog 'Formation;' conglomeratic sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Licklog Formation; conglomeratic sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Licklog 'Formation;' conglomeratic sandstone
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
++ line=licklog_formation_conglomeratic_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_licklog_formation_conglomeratic_sandstone_1.tif
++ counter=22
++ read -r line
++ echo Longarm Quartzite
++ [[ Longarm Quartzite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Longarm Quartzite
+++ dos2unix
++ line='Longarm Quartzite'
++ echo Longarm Quartzite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Longarm Quartzite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Longarm Quartzite
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=longarm_quartzite
++ gdal_translate tmp/temp.tif tmp/cat_geology_longarm_quartzite_1.tif
++ counter=23
++ read -r line
++ echo Metadiorite and metadiabase, and altered rocks
++ [[ Metadiorite and metadiabase, and altered rocks == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Metadiorite and metadiabase, and altered rocks
+++ dos2unix
++ line='Metadiorite and metadiabase, and altered rocks'
++ echo Metadiorite and metadiabase, and altered rocks
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Metadiorite and metadiabase, and altered rocks'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Metadiorite and metadiabase, and altered rocks
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=metadiorite_and_metadiabase_and_altered_rocks
++ gdal_translate tmp/temp.tif tmp/cat_geology_metadiorite_and_metadiabase_and_altered_rocks_1.tif
++ counter=24
++ read -r line
++ echo Metcalf Phyllite
++ [[ Metcalf Phyllite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Metcalf Phyllite
+++ dos2unix
++ line='Metcalf Phyllite'
++ echo Metcalf Phyllite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Metcalf Phyllite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Metcalf Phyllite
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=metcalf_phyllite
++ gdal_translate tmp/temp.tif tmp/cat_geology_metcalf_phyllite_1.tif
++ counter=25
++ read -r line
++ echo Migmatitic biotite gneiss
++ [[ Migmatitic biotite gneiss == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Migmatitic biotite gneiss
+++ dos2unix
++ line='Migmatitic biotite gneiss'
++ echo Migmatitic biotite gneiss
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Migmatitic biotite gneiss'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Migmatitic biotite gneiss
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
++ line=migmatitic_biotite_gneiss
++ gdal_translate tmp/temp.tif tmp/cat_geology_migmatitic_biotite_gneiss_1.tif
++ counter=26
++ read -r line
++ echo Monzogranite gneiss
++ [[ Monzogranite gneiss == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Monzogranite gneiss
+++ dos2unix
++ line='Monzogranite gneiss'
++ echo Monzogranite gneiss
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Monzogranite gneiss'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Monzogranite gneiss
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=monzogranite_gneiss
++ gdal_translate tmp/temp.tif tmp/cat_geology_monzogranite_gneiss_1.tif
++ counter=27
++ read -r line
++ echo Murray Shale
++ [[ Murray Shale == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Murray Shale
+++ dos2unix
++ line='Murray Shale'
++ echo Murray Shale
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Murray Shale'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Murray Shale
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=murray_shale
++ gdal_translate tmp/temp.tif tmp/cat_geology_murray_shale_1.tif
++ counter=28
++ read -r line
++ echo Nebo Quartzite
++ [[ Nebo Quartzite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Nebo Quartzite
+++ dos2unix
++ line='Nebo Quartzite'
++ echo Nebo Quartzite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Nebo Quartzite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Nebo Quartzite
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=nebo_quartzite
++ gdal_translate tmp/temp.tif tmp/cat_geology_nebo_quartzite_1.tif
++ counter=29
++ read -r line
++ echo Nichols Shale
++ [[ Nichols Shale == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Nichols Shale
+++ dos2unix
++ line='Nichols Shale'
++ echo Nichols Shale
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Nichols Shale'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Nichols Shale
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
++ line=nichols_shale
++ gdal_translate tmp/temp.tif tmp/cat_geology_nichols_shale_1.tif
++ counter=30
++ read -r line
++ echo Pigeon Siltstone
++ [[ Pigeon Siltstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Pigeon Siltstone
+++ dos2unix
++ line='Pigeon Siltstone'
++ echo Pigeon Siltstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Pigeon Siltstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Pigeon Siltstone
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=pigeon_siltstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_pigeon_siltstone_1.tif
++ counter=31
++ read -r line
++ echo Pigeon 'Siltstone;' feldspathic metasandstone
++ [[ Pigeon Siltstone; feldspathic metasandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Pigeon 'Siltstone;' feldspathic metasandstone
+++ dos2unix
++ line='Pigeon Siltstone; feldspathic metasandstone'
++ echo Pigeon 'Siltstone;' feldspathic metasandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Pigeon Siltstone; feldspathic metasandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Pigeon 'Siltstone;' feldspathic metasandstone
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=pigeon_siltstone_feldspathic_metasandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_pigeon_siltstone_feldspathic_metasandstone_1.tif
++ counter=32
++ read -r line
++ echo Rich Butt Sandstone
++ [[ Rich Butt Sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Rich Butt Sandstone
+++ dos2unix
++ line='Rich Butt Sandstone'
++ echo Rich Butt Sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Rich Butt Sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Rich Butt Sandstone
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=rich_butt_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_rich_butt_sandstone_1.tif
++ counter=33
++ read -r line
++ echo Rich Butt 'Sandstone;' slate and metasiltstone interbedded with fine-grained metasandstone
++ [[ Rich Butt Sandstone; slate and metasiltstone interbedded with fine-grained metasandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Rich Butt 'Sandstone;' slate and metasiltstone interbedded with fine-grained metasandstone
+++ dos2unix
++ line='Rich Butt Sandstone; slate and metasiltstone interbedded with fine-grained metasandstone'
++ echo Rich Butt 'Sandstone;' slate and metasiltstone interbedded with fine-grained metasandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Rich Butt Sandstone; slate and metasiltstone interbedded with fine-grained metasandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Rich Butt 'Sandstone;' slate and metasiltstone interbedded with fine-grained metasandstone
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=rich_butt_sandstone_slate_and_metasiltstone_interbedded_with_fine-grained_metasandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_rich_butt_sandstone_slate_and_metasiltstone_interbedded_with_fine-grained_metasandstone_1.tif
++ counter=34
++ read -r line
++ echo Roaring Fork Sandstone
++ [[ Roaring Fork Sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Roaring Fork Sandstone
+++ dos2unix
++ line='Roaring Fork Sandstone'
++ echo Roaring Fork Sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Roaring Fork Sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Roaring Fork Sandstone
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=roaring_fork_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_roaring_fork_sandstone_1.tif
++ counter=35
++ read -r line
++ echo Roaring Fork 'Sandstone;' feldspathic metasandstone
++ [[ Roaring Fork Sandstone; feldspathic metasandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Roaring Fork 'Sandstone;' feldspathic metasandstone
+++ dos2unix
++ line='Roaring Fork Sandstone; feldspathic metasandstone'
++ echo Roaring Fork 'Sandstone;' feldspathic metasandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Roaring Fork Sandstone; feldspathic metasandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Roaring Fork 'Sandstone;' feldspathic metasandstone
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=roaring_fork_sandstone_feldspathic_metasandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_roaring_fork_sandstone_feldspathic_metasandstone_1.tif
++ counter=36
++ read -r line
++ echo Shady Dolomite
++ [[ Shady Dolomite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Shady Dolomite
+++ dos2unix
++ line='Shady Dolomite'
++ echo Shady Dolomite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Shady Dolomite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Shady Dolomite
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=shady_dolomite
++ gdal_translate tmp/temp.tif tmp/cat_geology_shady_dolomite_1.tif
++ counter=37
++ read -r line
++ echo Shady 'Dolomite;' shaly dolomite
++ [[ Shady Dolomite; shaly dolomite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Shady 'Dolomite;' shaly dolomite
+++ dos2unix
++ line='Shady Dolomite; shaly dolomite'
++ echo Shady 'Dolomite;' shaly dolomite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Shady Dolomite; shaly dolomite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Shady 'Dolomite;' shaly dolomite
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=shady_dolomite_shaly_dolomite
++ gdal_translate tmp/temp.tif tmp/cat_geology_shady_dolomite_shaly_dolomite_1.tif
++ counter=38
++ read -r line
++ echo Shields Formation
++ [[ Shields Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Shields Formation
+++ dos2unix
++ line='Shields Formation'
++ echo Shields Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Shields Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Shields Formation
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=shields_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_shields_formation_1.tif
++ counter=39
++ read -r line
++ echo Shields 'Formation;' coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone
++ [[ Shields Formation; coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Shields 'Formation;' coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone
+++ dos2unix
++ line='Shields Formation; coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone'
++ echo Shields 'Formation;' coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Shields Formation; coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Shields 'Formation;' coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=shields_formation_coarse_conglomerate_of_polymictic_pebbles_and_cobbles_and_pebbly_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_shields_formation_coarse_conglomerate_of_polymictic_pebbles_and_cobbles_and_pebbly_sandstone_1.tif
++ counter=40
++ read -r line
++ echo Shields 'Formation;' limestone and siltstone
++ [[ Shields Formation; limestone and siltstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Shields 'Formation;' limestone and siltstone
+++ dos2unix
++ line='Shields Formation; limestone and siltstone'
++ echo Shields 'Formation;' limestone and siltstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Shields Formation; limestone and siltstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Shields 'Formation;' limestone and siltstone
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=shields_formation_limestone_and_siltstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_shields_formation_limestone_and_siltstone_1.tif
++ counter=41
++ read -r line
++ echo Tellico Formation
++ [[ Tellico Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Tellico Formation
+++ dos2unix
++ line='Tellico Formation'
++ echo Tellico Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Tellico Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Tellico Formation
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=tellico_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_tellico_formation_1.tif
++ counter=42
++ read -r line
++ echo Thunderhead Sandstone
++ [[ Thunderhead Sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Thunderhead Sandstone
+++ dos2unix
++ line='Thunderhead Sandstone'
++ echo Thunderhead Sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Thunderhead Sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Thunderhead Sandstone
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=thunderhead_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_thunderhead_sandstone_1.tif
++ counter=43
++ read -r line
++ echo Thunderhead 'Sandstone;' boulder conglomerate
++ [[ Thunderhead Sandstone; boulder conglomerate == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Thunderhead 'Sandstone;' boulder conglomerate
+++ dos2unix
++ line='Thunderhead Sandstone; boulder conglomerate'
++ echo Thunderhead 'Sandstone;' boulder conglomerate
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Thunderhead Sandstone; boulder conglomerate'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Thunderhead 'Sandstone;' boulder conglomerate
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=thunderhead_sandstone_boulder_conglomerate
++ gdal_translate tmp/temp.tif tmp/cat_geology_thunderhead_sandstone_boulder_conglomerate_1.tif
++ counter=44
++ read -r line
++ echo Thunderhead 'Sandstone;' graphitic metasiltstone and slate
++ [[ Thunderhead Sandstone; graphitic metasiltstone and slate == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Thunderhead 'Sandstone;' graphitic metasiltstone and slate
+++ dos2unix
++ line='Thunderhead Sandstone; graphitic metasiltstone and slate'
++ echo Thunderhead 'Sandstone;' graphitic metasiltstone and slate
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Thunderhead Sandstone; graphitic metasiltstone and slate'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Thunderhead 'Sandstone;' graphitic metasiltstone and slate
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=thunderhead_sandstone_graphitic_metasiltstone_and_slate
++ gdal_translate tmp/temp.tif tmp/cat_geology_thunderhead_sandstone_graphitic_metasiltstone_and_slate_1.tif
++ counter=45
++ read -r line
++ echo Ultramafic rock
++ [[ Ultramafic rock == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Ultramafic rock
+++ dos2unix
++ line='Ultramafic rock'
++ echo Ultramafic rock
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Ultramafic rock'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Ultramafic rock
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=ultramafic_rock
++ gdal_translate tmp/temp.tif tmp/cat_geology_ultramafic_rock_1.tif
++ counter=46
++ read -r line
++ echo Upper Part of Chilhowee Group, undifferentiated
++ [[ Upper Part of Chilhowee Group, undifferentiated == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Upper Part of Chilhowee Group, undifferentiated
+++ dos2unix
++ line='Upper Part of Chilhowee Group, undifferentiated'
++ echo Upper Part of Chilhowee Group, undifferentiated
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Upper Part of Chilhowee Group, undifferentiated'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Upper Part of Chilhowee Group, undifferentiated
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=upper_part_of_chilhowee_group_undifferentiated
++ gdal_translate tmp/temp.tif tmp/cat_geology_upper_part_of_chilhowee_group_undifferentiated_1.tif
++ counter=47
++ read -r line
++ echo Wading Branch Formation
++ [[ Wading Branch Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wading Branch Formation
+++ dos2unix
++ line='Wading Branch Formation'
++ echo Wading Branch Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wading Branch Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wading Branch Formation
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=wading_branch_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_wading_branch_formation_1.tif
++ counter=48
++ read -r line
++ echo Wehutty Formation
++ [[ Wehutty Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wehutty Formation
+++ dos2unix
++ line='Wehutty Formation'
++ echo Wehutty Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wehutty Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wehutty Formation
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=wehutty_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_wehutty_formation_1.tif
++ counter=49
++ read -r line
++ echo Wilhite Formation
++ [[ Wilhite Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wilhite Formation
+++ dos2unix
++ line='Wilhite Formation'
++ echo Wilhite Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wilhite Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wilhite Formation
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=wilhite_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_wilhite_formation_1.tif
++ counter=50
++ read -r line
++ echo Wilhite 'Formation;' carbonate rocks, limestone, and sandy limestone within argillaceous shale
++ [[ Wilhite Formation; carbonate rocks, limestone, and sandy limestone within argillaceous shale == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wilhite 'Formation;' carbonate rocks, limestone, and sandy limestone within argillaceous shale
+++ dos2unix
++ line='Wilhite Formation; carbonate rocks, limestone, and sandy limestone within argillaceous shale'
++ echo Wilhite 'Formation;' carbonate rocks, limestone, and sandy limestone within argillaceous shale
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wilhite Formation; carbonate rocks, limestone, and sandy limestone within argillaceous shale'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wilhite 'Formation;' carbonate rocks, limestone, and sandy limestone within argillaceous shale
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
++ line=wilhite_formation_carbonate_rocks_limestone_and_sandy_limestone_within_argillaceous_shale
++ gdal_translate tmp/temp.tif tmp/cat_geology_wilhite_formation_carbonate_rocks_limestone_and_sandy_limestone_within_argillaceous_shale_1.tif
++ counter=51
++ read -r line
++ echo Wilhite 'Formation;' limestone and shale
++ [[ Wilhite Formation; limestone and shale == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wilhite 'Formation;' limestone and shale
+++ dos2unix
++ line='Wilhite Formation; limestone and shale'
++ echo Wilhite 'Formation;' limestone and shale
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wilhite Formation; limestone and shale'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wilhite 'Formation;' limestone and shale
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=wilhite_formation_limestone_and_shale
++ gdal_translate tmp/temp.tif tmp/cat_geology_wilhite_formation_limestone_and_shale_1.tif
++ counter=52
++ read -r line
++ echo Wilhite 'Formation;' quartzite, sandstone, and polymictic pebble conglomerate
++ [[ Wilhite Formation; quartzite, sandstone, and polymictic pebble conglomerate == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wilhite 'Formation;' quartzite, sandstone, and polymictic pebble conglomerate
+++ dos2unix
++ line='Wilhite Formation; quartzite, sandstone, and polymictic pebble conglomerate'
++ echo Wilhite 'Formation;' quartzite, sandstone, and polymictic pebble conglomerate
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3129 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wilhite Formation; quartzite, sandstone, and polymictic pebble conglomerate'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wilhite 'Formation;' quartzite, sandstone, and polymictic pebble conglomerate
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=wilhite_formation_quartzite_sandstone_and_polymictic_pebble_conglomerate
++ gdal_translate tmp/temp.tif tmp/cat_geology_wilhite_formation_quartzite_sandstone_and_polymictic_pebble_conglomerate_1.tif
++ counter=53
++ read -r line
++ counter=0
++ cat layers/cat_geology.geojson
++ grep GLG_NAME_1
++ grep -oh ': ".*"'
++ sed -n 's/: "\(.*\)"/\1/p'
++ sort
++ uniq
++ read -r line
++ echo Amphibolite
++ [[ Amphibolite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Amphibolite
+++ dos2unix
++ line=Amphibolite
++ echo Amphibolite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Amphibolite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Amphibolite
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=amphibolite
++ gdal_translate tmp/temp.tif tmp/cat_geology_amphibolite_2.tif
++ counter=1
++ read -r line
++ echo Anakeesta Formation
++ [[ Anakeesta Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Anakeesta Formation
+++ dos2unix
++ line='Anakeesta Formation'
++ echo Anakeesta Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Anakeesta Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Anakeesta Formation
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=anakeesta_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_anakeesta_formation_2.tif
++ counter=2
++ read -r line
++ echo Anakeesta 'Formation;' ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone
++ [[ Anakeesta Formation; ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Anakeesta 'Formation;' ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone
+++ dos2unix
++ line='Anakeesta Formation; ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone'
++ echo Anakeesta 'Formation;' ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Anakeesta Formation; ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Anakeesta 'Formation;' ankerite-rich metasandstone and sandy dolomite, chloritoid metasiltstone
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=anakeesta_formation_ankerite-rich_metasandstone_and_sandy_dolomite_chloritoid_metasiltstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_anakeesta_formation_ankerite-rich_metasandstone_and_sandy_dolomite_chloritoid_metasiltstone_2.tif
++ counter=3
++ read -r line
++ echo Anakeesta 'Formation;' metagraywacke interbedded with metasiltstone
++ [[ Anakeesta Formation; metagraywacke interbedded with metasiltstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Anakeesta 'Formation;' metagraywacke interbedded with metasiltstone
+++ dos2unix
++ line='Anakeesta Formation; metagraywacke interbedded with metasiltstone'
++ echo Anakeesta 'Formation;' metagraywacke interbedded with metasiltstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Anakeesta Formation; metagraywacke interbedded with metasiltstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Anakeesta 'Formation;' metagraywacke interbedded with metasiltstone
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=anakeesta_formation_metagraywacke_interbedded_with_metasiltstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_anakeesta_formation_metagraywacke_interbedded_with_metasiltstone_2.tif
++ counter=4
++ read -r line
++ echo Anakeesta 'Formation;' slate containing small dark elliptical porphyroblasts of chloritoid
++ [[ Anakeesta Formation; slate containing small dark elliptical porphyroblasts of chloritoid == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Anakeesta 'Formation;' slate containing small dark elliptical porphyroblasts of chloritoid
+++ dos2unix
++ line='Anakeesta Formation; slate containing small dark elliptical porphyroblasts of chloritoid'
++ echo Anakeesta 'Formation;' slate containing small dark elliptical porphyroblasts of chloritoid
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Anakeesta Formation; slate containing small dark elliptical porphyroblasts of chloritoid'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Anakeesta 'Formation;' slate containing small dark elliptical porphyroblasts of chloritoid
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
++ line=anakeesta_formation_slate_containing_small_dark_elliptical_porphyroblasts_of_chloritoid
++ gdal_translate tmp/temp.tif tmp/cat_geology_anakeesta_formation_slate_containing_small_dark_elliptical_porphyroblasts_of_chloritoid_2.tif
++ counter=5
++ read -r line
++ echo Biotite augen gneiss
++ [[ Biotite augen gneiss == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Biotite augen gneiss
+++ dos2unix
++ line='Biotite augen gneiss'
++ echo Biotite augen gneiss
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Biotite augen gneiss'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Biotite augen gneiss
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=biotite_augen_gneiss
++ gdal_translate tmp/temp.tif tmp/cat_geology_biotite_augen_gneiss_2.tif
++ counter=6
++ read -r line
++ echo Blockhouse Shale
++ [[ Blockhouse Shale == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Blockhouse Shale
+++ dos2unix
++ line='Blockhouse Shale'
++ echo Blockhouse Shale
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Blockhouse Shale'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Blockhouse Shale
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=blockhouse_shale
++ gdal_translate tmp/temp.tif tmp/cat_geology_blockhouse_shale_2.tif
++ counter=7
++ read -r line
++ echo Cades Sandstone
++ [[ Cades Sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Cades Sandstone
+++ dos2unix
++ line='Cades Sandstone'
++ echo Cades Sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Cades Sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Cades Sandstone
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
++ line=cades_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_cades_sandstone_2.tif
++ counter=8
++ read -r line
++ echo Cades 'Sandstone;' boulder conglomerate
++ [[ Cades Sandstone; boulder conglomerate == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Cades 'Sandstone;' boulder conglomerate
+++ dos2unix
++ line='Cades Sandstone; boulder conglomerate'
++ echo Cades 'Sandstone;' boulder conglomerate
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Cades Sandstone; boulder conglomerate'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Cades 'Sandstone;' boulder conglomerate
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=cades_sandstone_boulder_conglomerate
++ gdal_translate tmp/temp.tif tmp/cat_geology_cades_sandstone_boulder_conglomerate_2.tif
++ counter=9
++ read -r line
++ echo Cades 'Sandstone;' siltstone interbedded with fine-grained metasandstone
++ [[ Cades Sandstone; siltstone interbedded with fine-grained metasandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Cades 'Sandstone;' siltstone interbedded with fine-grained metasandstone
+++ dos2unix
++ line='Cades Sandstone; siltstone interbedded with fine-grained metasandstone'
++ echo Cades 'Sandstone;' siltstone interbedded with fine-grained metasandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Cades Sandstone; siltstone interbedded with fine-grained metasandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Cades 'Sandstone;' siltstone interbedded with fine-grained metasandstone
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
++ line=cades_sandstone_siltstone_interbedded_with_fine-grained_metasandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_cades_sandstone_siltstone_interbedded_with_fine-grained_metasandstone_2.tif
++ counter=10
++ read -r line
++ echo Cochran Formation
++ [[ Cochran Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Cochran Formation
+++ dos2unix
++ line='Cochran Formation'
++ echo Cochran Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Cochran Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Cochran Formation
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=cochran_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_cochran_formation_2.tif
++ counter=11
++ read -r line
++ echo Copperhill Formation
++ [[ Copperhill Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Copperhill Formation
+++ dos2unix
++ line='Copperhill Formation'
++ echo Copperhill Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Copperhill Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Copperhill Formation
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=copperhill_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_copperhill_formation_2.tif
++ counter=12
++ read -r line
++ echo Copperhill 'Formation;' metasiltstone, interbedded with metagraywacke
++ [[ Copperhill Formation; metasiltstone, interbedded with metagraywacke == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Copperhill 'Formation;' metasiltstone, interbedded with metagraywacke
+++ dos2unix
++ line='Copperhill Formation; metasiltstone, interbedded with metagraywacke'
++ echo Copperhill 'Formation;' metasiltstone, interbedded with metagraywacke
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Copperhill Formation; metasiltstone, interbedded with metagraywacke'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Copperhill 'Formation;' metasiltstone, interbedded with metagraywacke
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=copperhill_formation_metasiltstone_interbedded_with_metagraywacke
++ gdal_translate tmp/temp.tif tmp/cat_geology_copperhill_formation_metasiltstone_interbedded_with_metagraywacke_2.tif
++ counter=13
++ read -r line
++ echo Copperhill 'Formation;' quartz-muscovite schist and phyllite interbedded with metagraywacke
++ [[ Copperhill Formation; quartz-muscovite schist and phyllite interbedded with metagraywacke == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Copperhill 'Formation;' quartz-muscovite schist and phyllite interbedded with metagraywacke
+++ dos2unix
++ line='Copperhill Formation; quartz-muscovite schist and phyllite interbedded with metagraywacke'
++ echo Copperhill 'Formation;' quartz-muscovite schist and phyllite interbedded with metagraywacke
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Copperhill Formation; quartz-muscovite schist and phyllite interbedded with metagraywacke'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Copperhill 'Formation;' quartz-muscovite schist and phyllite interbedded with metagraywacke
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=copperhill_formation_quartz-muscovite_schist_and_phyllite_interbedded_with_metagraywacke
++ gdal_translate tmp/temp.tif tmp/cat_geology_copperhill_formation_quartz-muscovite_schist_and_phyllite_interbedded_with_metagraywacke_2.tif
++ counter=14
++ read -r line
++ echo Elkmont Sandstone
++ [[ Elkmont Sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Elkmont Sandstone
+++ dos2unix
++ line='Elkmont Sandstone'
++ echo Elkmont Sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Elkmont Sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Elkmont Sandstone
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=elkmont_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_elkmont_sandstone_2.tif
++ counter=15
++ read -r line
++ echo Elkmont 'Sandstone;' metasandstone and metaconglomerate
++ [[ Elkmont Sandstone; metasandstone and metaconglomerate == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Elkmont 'Sandstone;' metasandstone and metaconglomerate
+++ dos2unix
++ line='Elkmont Sandstone; metasandstone and metaconglomerate'
++ echo Elkmont 'Sandstone;' metasandstone and metaconglomerate
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Elkmont Sandstone; metasandstone and metaconglomerate'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Elkmont 'Sandstone;' metasandstone and metaconglomerate
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/[)(]//g'
++ line=elkmont_sandstone_metasandstone_and_metaconglomerate
++ gdal_translate tmp/temp.tif tmp/cat_geology_elkmont_sandstone_metasandstone_and_metaconglomerate_2.tif
++ counter=16
++ read -r line
++ echo Helenmode Formation
++ [[ Helenmode Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Helenmode Formation
+++ dos2unix
++ line='Helenmode Formation'
++ echo Helenmode Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Helenmode Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Helenmode Formation
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=helenmode_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_helenmode_formation_2.tif
++ counter=17
++ read -r line
++ echo Hesse Quartzite
++ [[ Hesse Quartzite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Hesse Quartzite
+++ dos2unix
++ line='Hesse Quartzite'
++ echo Hesse Quartzite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Hesse Quartzite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Hesse Quartzite
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=hesse_quartzite
++ gdal_translate tmp/temp.tif tmp/cat_geology_hesse_quartzite_2.tif
++ counter=18
++ read -r line
++ echo Hornblende-biotite gneiss
++ [[ Hornblende-biotite gneiss == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Hornblende-biotite gneiss
+++ dos2unix
++ line='Hornblende-biotite gneiss'
++ echo Hornblende-biotite gneiss
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Hornblende-biotite gneiss'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Hornblende-biotite gneiss
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=hornblende-biotite_gneiss
++ gdal_translate tmp/temp.tif tmp/cat_geology_hornblende-biotite_gneiss_2.tif
++ counter=19
++ read -r line
++ echo Jonesboro Limestone
++ [[ Jonesboro Limestone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Jonesboro Limestone
+++ dos2unix
++ line='Jonesboro Limestone'
++ echo Jonesboro Limestone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Jonesboro Limestone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Jonesboro Limestone
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=jonesboro_limestone
++ gdal_translate tmp/temp.tif tmp/cat_geology_jonesboro_limestone_2.tif
++ counter=20
++ read -r line
++ echo Licklog Formation
++ [[ Licklog Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Licklog Formation
+++ dos2unix
++ line='Licklog Formation'
++ echo Licklog Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Licklog Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Licklog Formation
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=licklog_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_licklog_formation_2.tif
++ counter=21
++ read -r line
++ echo Licklog 'Formation;' conglomeratic sandstone
++ [[ Licklog Formation; conglomeratic sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Licklog 'Formation;' conglomeratic sandstone
+++ dos2unix
++ line='Licklog Formation; conglomeratic sandstone'
++ echo Licklog 'Formation;' conglomeratic sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Licklog Formation; conglomeratic sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Licklog 'Formation;' conglomeratic sandstone
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=licklog_formation_conglomeratic_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_licklog_formation_conglomeratic_sandstone_2.tif
++ counter=22
++ read -r line
++ echo Longarm Quartzite
++ [[ Longarm Quartzite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Longarm Quartzite
+++ dos2unix
++ line='Longarm Quartzite'
++ echo Longarm Quartzite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Longarm Quartzite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Longarm Quartzite
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=longarm_quartzite
++ gdal_translate tmp/temp.tif tmp/cat_geology_longarm_quartzite_2.tif
++ counter=23
++ read -r line
++ echo Metadiorite and metadiabase, and altered rocks
++ [[ Metadiorite and metadiabase, and altered rocks == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Metadiorite and metadiabase, and altered rocks
+++ dos2unix
++ line='Metadiorite and metadiabase, and altered rocks'
++ echo Metadiorite and metadiabase, and altered rocks
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Metadiorite and metadiabase, and altered rocks'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Metadiorite and metadiabase, and altered rocks
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=metadiorite_and_metadiabase_and_altered_rocks
++ gdal_translate tmp/temp.tif tmp/cat_geology_metadiorite_and_metadiabase_and_altered_rocks_2.tif
++ counter=24
++ read -r line
++ echo Metcalf Phyllite
++ [[ Metcalf Phyllite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Metcalf Phyllite
+++ dos2unix
++ line='Metcalf Phyllite'
++ echo Metcalf Phyllite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Metcalf Phyllite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Metcalf Phyllite
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=metcalf_phyllite
++ gdal_translate tmp/temp.tif tmp/cat_geology_metcalf_phyllite_2.tif
++ counter=25
++ read -r line
++ echo Migmatitic biotite gneiss
++ [[ Migmatitic biotite gneiss == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Migmatitic biotite gneiss
+++ dos2unix
++ line='Migmatitic biotite gneiss'
++ echo Migmatitic biotite gneiss
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Migmatitic biotite gneiss'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Migmatitic biotite gneiss
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=migmatitic_biotite_gneiss
++ gdal_translate tmp/temp.tif tmp/cat_geology_migmatitic_biotite_gneiss_2.tif
++ counter=26
++ read -r line
++ echo Monzogranite gneiss
++ [[ Monzogranite gneiss == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Monzogranite gneiss
+++ dos2unix
++ line='Monzogranite gneiss'
++ echo Monzogranite gneiss
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Monzogranite gneiss'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Monzogranite gneiss
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
++ line=monzogranite_gneiss
++ gdal_translate tmp/temp.tif tmp/cat_geology_monzogranite_gneiss_2.tif
++ counter=27
++ read -r line
++ echo Murray Shale
++ [[ Murray Shale == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Murray Shale
+++ dos2unix
++ line='Murray Shale'
++ echo Murray Shale
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Murray Shale'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Murray Shale
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=murray_shale
++ gdal_translate tmp/temp.tif tmp/cat_geology_murray_shale_2.tif
++ counter=28
++ read -r line
++ echo Nebo Quartzite
++ [[ Nebo Quartzite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Nebo Quartzite
+++ dos2unix
++ line='Nebo Quartzite'
++ echo Nebo Quartzite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Nebo Quartzite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Nebo Quartzite
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=nebo_quartzite
++ gdal_translate tmp/temp.tif tmp/cat_geology_nebo_quartzite_2.tif
++ counter=29
++ read -r line
++ echo Nichols Shale
++ [[ Nichols Shale == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Nichols Shale
+++ dos2unix
++ line='Nichols Shale'
++ echo Nichols Shale
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Nichols Shale'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Nichols Shale
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=nichols_shale
++ gdal_translate tmp/temp.tif tmp/cat_geology_nichols_shale_2.tif
++ counter=30
++ read -r line
++ echo Pigeon Siltstone
++ [[ Pigeon Siltstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Pigeon Siltstone
+++ dos2unix
++ line='Pigeon Siltstone'
++ echo Pigeon Siltstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Pigeon Siltstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Pigeon Siltstone
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
++ line=pigeon_siltstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_pigeon_siltstone_2.tif
++ counter=31
++ read -r line
++ echo Pigeon 'Siltstone;' feldspathic metasandstone
++ [[ Pigeon Siltstone; feldspathic metasandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Pigeon 'Siltstone;' feldspathic metasandstone
+++ dos2unix
++ line='Pigeon Siltstone; feldspathic metasandstone'
++ echo Pigeon 'Siltstone;' feldspathic metasandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Pigeon Siltstone; feldspathic metasandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Pigeon 'Siltstone;' feldspathic metasandstone
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=pigeon_siltstone_feldspathic_metasandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_pigeon_siltstone_feldspathic_metasandstone_2.tif
++ counter=32
++ read -r line
++ echo Rich Butt Sandstone
++ [[ Rich Butt Sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Rich Butt Sandstone
+++ dos2unix
++ line='Rich Butt Sandstone'
++ echo Rich Butt Sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Rich Butt Sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Rich Butt Sandstone
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=rich_butt_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_rich_butt_sandstone_2.tif
++ counter=33
++ read -r line
++ echo Rich Butt 'Sandstone;' slate and metasiltstone interbedded with fine-grained metasandstone
++ [[ Rich Butt Sandstone; slate and metasiltstone interbedded with fine-grained metasandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Rich Butt 'Sandstone;' slate and metasiltstone interbedded with fine-grained metasandstone
+++ dos2unix
++ line='Rich Butt Sandstone; slate and metasiltstone interbedded with fine-grained metasandstone'
++ echo Rich Butt 'Sandstone;' slate and metasiltstone interbedded with fine-grained metasandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Rich Butt Sandstone; slate and metasiltstone interbedded with fine-grained metasandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Rich Butt 'Sandstone;' slate and metasiltstone interbedded with fine-grained metasandstone
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=rich_butt_sandstone_slate_and_metasiltstone_interbedded_with_fine-grained_metasandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_rich_butt_sandstone_slate_and_metasiltstone_interbedded_with_fine-grained_metasandstone_2.tif
++ counter=34
++ read -r line
++ echo Roaring Fork Sandstone
++ [[ Roaring Fork Sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Roaring Fork Sandstone
+++ dos2unix
++ line='Roaring Fork Sandstone'
++ echo Roaring Fork Sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Roaring Fork Sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Roaring Fork Sandstone
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=roaring_fork_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_roaring_fork_sandstone_2.tif
++ counter=35
++ read -r line
++ echo Roaring Fork 'Sandstone;' feldspathic metasandstone
++ [[ Roaring Fork Sandstone; feldspathic metasandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Roaring Fork 'Sandstone;' feldspathic metasandstone
+++ dos2unix
++ line='Roaring Fork Sandstone; feldspathic metasandstone'
++ echo Roaring Fork 'Sandstone;' feldspathic metasandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Roaring Fork Sandstone; feldspathic metasandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Roaring Fork 'Sandstone;' feldspathic metasandstone
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=roaring_fork_sandstone_feldspathic_metasandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_roaring_fork_sandstone_feldspathic_metasandstone_2.tif
++ counter=36
++ read -r line
++ echo Shady Dolomite
++ [[ Shady Dolomite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Shady Dolomite
+++ dos2unix
++ line='Shady Dolomite'
++ echo Shady Dolomite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Shady Dolomite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Shady Dolomite
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=shady_dolomite
++ gdal_translate tmp/temp.tif tmp/cat_geology_shady_dolomite_2.tif
++ counter=37
++ read -r line
++ echo Shady 'Dolomite;' shaly dolomite
++ [[ Shady Dolomite; shaly dolomite == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Shady 'Dolomite;' shaly dolomite
+++ dos2unix
++ line='Shady Dolomite; shaly dolomite'
++ echo Shady 'Dolomite;' shaly dolomite
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Shady Dolomite; shaly dolomite'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Shady 'Dolomite;' shaly dolomite
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=shady_dolomite_shaly_dolomite
++ gdal_translate tmp/temp.tif tmp/cat_geology_shady_dolomite_shaly_dolomite_2.tif
++ counter=38
++ read -r line
++ echo Shields Formation
++ [[ Shields Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Shields Formation
+++ dos2unix
++ line='Shields Formation'
++ echo Shields Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Shields Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Shields Formation
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=shields_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_shields_formation_2.tif
++ counter=39
++ read -r line
++ echo Shields 'Formation;' coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone
++ [[ Shields Formation; coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Shields 'Formation;' coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone
+++ dos2unix
++ line='Shields Formation; coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone'
++ echo Shields 'Formation;' coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Shields Formation; coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Shields 'Formation;' coarse conglomerate of polymictic pebbles and cobbles, and pebbly sandstone
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
++ line=shields_formation_coarse_conglomerate_of_polymictic_pebbles_and_cobbles_and_pebbly_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_shields_formation_coarse_conglomerate_of_polymictic_pebbles_and_cobbles_and_pebbly_sandstone_2.tif
++ counter=40
++ read -r line
++ echo Shields 'Formation;' limestone and siltstone
++ [[ Shields Formation; limestone and siltstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Shields 'Formation;' limestone and siltstone
+++ dos2unix
++ line='Shields Formation; limestone and siltstone'
++ echo Shields 'Formation;' limestone and siltstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Shields Formation; limestone and siltstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Shields 'Formation;' limestone and siltstone
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=shields_formation_limestone_and_siltstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_shields_formation_limestone_and_siltstone_2.tif
++ counter=41
++ read -r line
++ echo Tellico Formation
++ [[ Tellico Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Tellico Formation
+++ dos2unix
++ line='Tellico Formation'
++ echo Tellico Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Tellico Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Tellico Formation
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ tr '[:upper:]' '[:lower:]'
++ line=tellico_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_tellico_formation_2.tif
++ counter=42
++ read -r line
++ echo Thunderhead Sandstone
++ [[ Thunderhead Sandstone == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Thunderhead Sandstone
+++ dos2unix
++ line='Thunderhead Sandstone'
++ echo Thunderhead Sandstone
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Thunderhead Sandstone'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Thunderhead Sandstone
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
++ line=thunderhead_sandstone
++ gdal_translate tmp/temp.tif tmp/cat_geology_thunderhead_sandstone_2.tif
++ counter=43
++ read -r line
++ echo Thunderhead 'Sandstone;' boulder conglomerate
++ [[ Thunderhead Sandstone; boulder conglomerate == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Thunderhead 'Sandstone;' boulder conglomerate
+++ dos2unix
++ line='Thunderhead Sandstone; boulder conglomerate'
++ echo Thunderhead 'Sandstone;' boulder conglomerate
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Thunderhead Sandstone; boulder conglomerate'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Thunderhead 'Sandstone;' boulder conglomerate
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=thunderhead_sandstone_boulder_conglomerate
++ gdal_translate tmp/temp.tif tmp/cat_geology_thunderhead_sandstone_boulder_conglomerate_2.tif
++ counter=44
++ read -r line
++ echo Thunderhead 'Sandstone;' graphitic metasiltstone and slate
++ [[ Thunderhead Sandstone; graphitic metasiltstone and slate == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Thunderhead 'Sandstone;' graphitic metasiltstone and slate
+++ dos2unix
++ line='Thunderhead Sandstone; graphitic metasiltstone and slate'
++ echo Thunderhead 'Sandstone;' graphitic metasiltstone and slate
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Thunderhead Sandstone; graphitic metasiltstone and slate'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Thunderhead 'Sandstone;' graphitic metasiltstone and slate
+++ sed 's/[)(]//g'
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=thunderhead_sandstone_graphitic_metasiltstone_and_slate
++ gdal_translate tmp/temp.tif tmp/cat_geology_thunderhead_sandstone_graphitic_metasiltstone_and_slate_2.tif
++ counter=45
++ read -r line
++ echo Ultramafic rock
++ [[ Ultramafic rock == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Ultramafic rock
+++ dos2unix
++ line='Ultramafic rock'
++ echo Ultramafic rock
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Ultramafic rock'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Ultramafic rock
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=ultramafic_rock
++ gdal_translate tmp/temp.tif tmp/cat_geology_ultramafic_rock_2.tif
++ counter=46
++ read -r line
++ echo Upper Part of Chilhowee Group, undifferentiated
++ [[ Upper Part of Chilhowee Group, undifferentiated == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Upper Part of Chilhowee Group, undifferentiated
+++ dos2unix
++ line='Upper Part of Chilhowee Group, undifferentiated'
++ echo Upper Part of Chilhowee Group, undifferentiated
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Upper Part of Chilhowee Group, undifferentiated'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Upper Part of Chilhowee Group, undifferentiated
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
++ line=upper_part_of_chilhowee_group_undifferentiated
++ gdal_translate tmp/temp.tif tmp/cat_geology_upper_part_of_chilhowee_group_undifferentiated_2.tif
++ counter=47
++ read -r line
++ echo Wading Branch Formation
++ [[ Wading Branch Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wading Branch Formation
+++ dos2unix
++ line='Wading Branch Formation'
++ echo Wading Branch Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wading Branch Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wading Branch Formation
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed s/__/_/g
++ line=wading_branch_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_wading_branch_formation_2.tif
++ counter=48
++ read -r line
++ echo Wehutty Formation
++ [[ Wehutty Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wehutty Formation
+++ dos2unix
++ line='Wehutty Formation'
++ echo Wehutty Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wehutty Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wehutty Formation
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
++ line=wehutty_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_wehutty_formation_2.tif
++ counter=49
++ read -r line
++ echo Wilhite Formation
++ [[ Wilhite Formation == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wilhite Formation
+++ dos2unix
++ line='Wilhite Formation'
++ echo Wilhite Formation
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wilhite Formation'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wilhite Formation
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=wilhite_formation
++ gdal_translate tmp/temp.tif tmp/cat_geology_wilhite_formation_2.tif
++ counter=50
++ read -r line
++ echo Wilhite 'Formation;' carbonate rocks, limestone, and sandy limestone within argillaceous shale
++ [[ Wilhite Formation; carbonate rocks, limestone, and sandy limestone within argillaceous shale == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wilhite 'Formation;' carbonate rocks, limestone, and sandy limestone within argillaceous shale
+++ dos2unix
++ line='Wilhite Formation; carbonate rocks, limestone, and sandy limestone within argillaceous shale'
++ echo Wilhite 'Formation;' carbonate rocks, limestone, and sandy limestone within argillaceous shale
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wilhite Formation; carbonate rocks, limestone, and sandy limestone within argillaceous shale'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wilhite 'Formation;' carbonate rocks, limestone, and sandy limestone within argillaceous shale
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed 's/ /_/g'
+++ sed s/__/_/g
+++ sed 's/[)(]//g'
+++ tr '[:upper:]' '[:lower:]'
++ line=wilhite_formation_carbonate_rocks_limestone_and_sandy_limestone_within_argillaceous_shale
++ gdal_translate tmp/temp.tif tmp/cat_geology_wilhite_formation_carbonate_rocks_limestone_and_sandy_limestone_within_argillaceous_shale_2.tif
++ counter=51
++ read -r line
++ echo Wilhite 'Formation;' limestone and shale
++ [[ Wilhite Formation; limestone and shale == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wilhite 'Formation;' limestone and shale
+++ dos2unix
++ line='Wilhite Formation; limestone and shale'
++ echo Wilhite 'Formation;' limestone and shale
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wilhite Formation; limestone and shale'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wilhite 'Formation;' limestone and shale
+++ sed 's/[)(]//g'
+++ sed 's/ /_/g'
+++ tr '[:upper:]' '[:lower:]'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ sed s/__/_/g
++ line=wilhite_formation_limestone_and_shale
++ gdal_translate tmp/temp.tif tmp/cat_geology_wilhite_formation_limestone_and_shale_2.tif
++ counter=52
++ read -r line
++ echo Wilhite 'Formation;' quartzite, sandstone, and polymictic pebble conglomerate
++ [[ Wilhite Formation; quartzite, sandstone, and polymictic pebble conglomerate == *\F\C\S\U\B\T\Y\P\E* ]]
+++ echo Wilhite 'Formation;' quartzite, sandstone, and polymictic pebble conglomerate
+++ dos2unix
++ line='Wilhite Formation; quartzite, sandstone, and polymictic pebble conglomerate'
++ echo Wilhite 'Formation;' quartzite, sandstone, and polymictic pebble conglomerate
++ gdal_rasterize -ot Byte -a_nodata 0 -ts 3128 1192 -burn 253 -burn 142 -burn 31 -where 'GLG_NAME_1='\''Wilhite Formation; quartzite, sandstone, and polymictic pebble conglomerate'\''' layers/cat_geology.geojson tmp/temp.tif
+++ echo Wilhite 'Formation;' quartzite, sandstone, and polymictic pebble conglomerate
+++ sed s/__/_/g
+++ sed 's/ /_/g'
+++ sed 's/[)(]//g'
+++ sed -E -e 's/[;\,-/]/_/g'
+++ tr '[:upper:]' '[:lower:]'
++ line=wilhite_formation_quartzite_sandstone_and_polymictic_pebble_conglomerate
++ gdal_translate tmp/temp.tif tmp/cat_geology_wilhite_formation_quartzite_sandstone_and_polymictic_pebble_conglomerate_2.tif
++ counter=53
++ read -r line

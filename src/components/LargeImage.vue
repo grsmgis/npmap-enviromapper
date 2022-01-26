@@ -1,7 +1,13 @@
 <template>
-  <div class="large-image-box" :class="{ 'large-image-closed': !showLargeImage, 'large-image-open': showLargeImage }">
+  <div
+    class="large-image-box"
+    :class="{
+      'large-image-closed': !showLargeImage,
+      'large-image-open': showLargeImage,
+    }"
+  >
     <span class="close" @click="toggleImage">&times;</span>
-    <img :src="mutableUrl" class="large-image">
+    <img :src="mutableUrl" class="large-image" />
   </div>
 </template>
 
@@ -11,34 +17,34 @@ export default {
   props: {
     url: {
       default: "",
-      type: String
+      type: String,
     },
     show: {
       default: false,
-      type: Boolean
-    }
+      type: Boolean,
+    },
   },
-  data: function() {
+  data: function () {
     return {
-      mutableUrl: '',
-      showLargeImage: false
-    }
+      mutableUrl: "",
+      showLargeImage: false,
+    };
   },
   methods: {
-    toggleImage: function() {
+    toggleImage: function () {
       this.showLargeImage = false;
-      this.$emit('toggleImage');
-    }
+      this.$emit("toggleImage");
+    },
   },
   watch: {
-    url: function() {
+    url: function () {
       this.mutableUrl = this.url;
     },
-    show: function() {
+    show: function () {
       this.showLargeImage = this.show;
-    }
-  }
-}
+    },
+  },
+};
 </script>
 <style>
 .large-image-closed {
@@ -67,40 +73,40 @@ export default {
   height: 100%;
   width: 100%;
   overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 @-webkit-keyframes zoom {
   from {
-    -webkit-transform:scale(0)
-  } 
+    -webkit-transform: scale(0);
+  }
   to {
-    -webkit-transform:scale(1)
+    -webkit-transform: scale(1);
   }
 }
 
 @keyframes zoom {
   from {
-    transform:scale(0)
-  } 
+    transform: scale(0);
+  }
   to {
-    transform:scale(1)
+    transform: scale(1);
   }
 }
 .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
 </style>

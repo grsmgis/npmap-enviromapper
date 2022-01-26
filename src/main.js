@@ -2,8 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import Header from './components/Header.vue'
 import Multiselect from 'vue-multiselect'
+import axios from 'axios'
 
-window.axios = require('axios');
+window.axios = axios;
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
 Vue.prototype.$http = window.axios
 

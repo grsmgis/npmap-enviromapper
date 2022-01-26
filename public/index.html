@@ -19,10 +19,12 @@
     <link href="https://www.nps.gov/lib/assets/img/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
     <link href="https://www.nps.gov/lib/assets/img/apple-touch-icon-57x57-precomposed.png" rel="apple-touch-icon-precomposed">
     <title>Great Smoky Mountains National Park</title>
+    <link rel="stylesheet" href="reset.css"></link>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://www.nps.gov/maps/assets/css/full.min.css"></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chardin.js/0.1.3/chardinjs.css"></link>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="species_styles.css"></link>
     <link rel="stylesheet" href="style.css"></link>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.min.js"></script>
@@ -45,6 +47,7 @@
   <body>
   <div id="adblockoverlay" onclick="document.getElementById('adblockoverlay').style.display = 'none'; event.stopPropagation();">Please consider whitelisting our website.<br />Not all of the features work if adblock is enabled.<br />(Click anywhere to continue)</div>
   <div id="mockupoverlay">Loading...</div>
+  <iframe src="https://science.nature.nps.gov/parks/grsm/species/" class="species-mapper-iframe"></iframe>
     <header>
       <div id="header"></div>
     </header>
@@ -151,6 +154,7 @@
     <script src="js/searchUtils.js"></script>
     <script src="js/tooltips.js"></script>
     <script src="js/utils.js"></script>
+    <script src="js/share.js"></script>
     <script src="js/adframe.js"></script>
     <script>
       if (window.canRunAds === undefined) {
@@ -160,10 +164,10 @@
   </body>
   <footer>
     <ul>
-      <li class="home-link"><a href="https://www.nps.gov/grsm/learn/nature/index.htm" target="_blank" id="anch_0">Home</a></li>
-      <li><a href="https://www.nps.gov/grsm/faqs.htm" target="_blank" id="anch_1">Frequently Asked Questions</a></li>
-      <li><a href="https://www.nps.gov/aboutus/privacy.htm" target="_blank" id="anch_2">Website Policies</a></li>
-      <li><a href="https://www.nps.gov/grsm/contacts.htm" target="_blank" id="anch_3">Contact Us</a></li>
+      <li class="home-link"><a href="https://www.nps.gov/" id="anch_0">Home</a></li>
+      <li><a href="https://www.nps.gov/faqs.htm" id="anch_1">Frequently Asked Questions</a></li>
+      <li><a href="https://www.nps.gov/aboutus/website-policies.htm" id="anch_2">Website Policies</a></li>
+      <li><a href="https://www.nps.gov/contacts.htm" id="anch_3">Contact Us</a></li>
     </ul>
     <span class="tag-line ir">Experience Your America</span>
   </footer>

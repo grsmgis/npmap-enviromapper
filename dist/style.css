@@ -45,7 +45,7 @@ li:hover {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 400;
 }
 
@@ -93,7 +93,6 @@ body.dragging * {
 #search-tool {
   color: #efefef !important;
   position: relative;
-  top: -10px;
   width: 100%;
   min-width: 1246px;
   height: 110px;
@@ -2115,12 +2114,12 @@ select {
 .environment-image {
   background-image: url('images/environment.png');
   width: 400px;
-  height: 128px;
+  height: 150px;
   background-size: contain;
 }
 
 .info-box-info {
-  padding: 3%;
+  padding: 5px;
 }
 
 .info-box ul,

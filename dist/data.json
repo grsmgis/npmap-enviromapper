@@ -7,19 +7,20 @@
         "info":
           "Here is some information about Insects. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Insects",
-        "img": "disturbance/cat_disturb_insect.jpg"
+        "img": "http://via.placeholder.com/150x150",
+        "remove": "true"
       },
       {
         "info":
-          "Fire is has a complex role in the GSMNP. Historically, the landscape has long been shaped by naturally occurring fires and many plant and ecological communities of Southern Appalachia have evolved to depend on periodic wildfires to thrive. However, fires can also be a force of danger and destruction under certain conditions. Since the park was founded in 1934, several fire management policies have been adapted. Today fires are managed by controlled burns in an effort to simulate the conservation benefits caused by natural wildfires while minimizing the potential danger and damage caused by inevitable unplanned fires. Although dangerous fires are rare, these events do occasionally occur.",
+          "Here is some information about Fire. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Fire",
-        "img": "disturbance/cat_disturb_fire.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "Wind is a regular climatic disturbance is the GSMNP. At velocities in excess of 100 miles (160 kilometers) per hour, one of the most common wind disturbance types is mountain wave wind. This phenomenon is caused when wind interact with the shape of the mountains causing an  isolated and unpredictable wind with hurricane-strength. Property damage and tree blowdowns may occur during these short term events. Other types of wind disturbances are tornadoes and derechos, although these are less common.",
+          "Here is some information about Wind. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Wind",
-        "img": "disturbance/cat_disturb_wind.jpg"
+        "img": "http://via.placeholder.com/150x150"
       }
     ],
     "type": "categorical",
@@ -199,13 +200,13 @@
       },
       {
         "info":
-          "Named after the Anakeesta Ridge, the Anakeesta Formation is dark-gray to black silty rock that forms into craggy pinnacles with steep slopes. Sometimes this rock formation has rusty-red stains because of sulfide minerals. The Anakeesta Formation is clearly visible along US Hwy 441 from the base of Anakeesta Ridge to Newfound Gap.",
+          "Here is some information about Anakeesta Formation. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Anakeesta Formation",
         "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "Biotite augen gneiss is a type of coarse-grained metamorphic rock made of granite and quartz. Different minerals in the rock  causes the characteristic black, white, and pink colors. This rock occurs from the Pigeon River west to the Cherokee-Raven Fork belt, and is also found in the Qualla-Dellwood belt.",
+          "Here is some information about Biotite augen gneiss. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Biotite augen gneiss",
         "img": "http://via.placeholder.com/150x150"
       },
@@ -218,7 +219,7 @@
       },
       {
         "info":
-          "This particular sandstone is well exposed in Cades Cove, thus the name Cades Sandstone. Cades Sandstone is metamorphic sandstone and siltstone formed in the late Precambrian to early Cambrian periods. Compared to other sandstones found in the park such as Elkmont sandstone, Cades Sandstone has a wider variety of grain size.",
+          "Here is some information about Cades Sandstone. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Cades Sandstone",
         "img": "http://via.placeholder.com/150x150"
       },
@@ -231,13 +232,13 @@
       },
       {
         "info":
-          "The Copperhill Formation is a geological formation that occurs in layers above the Anakeesta Formation. The Copperhill Formation consists primarily of metagraywacke, a grey and hard sandstone that has undergone some metamorphism.  This formationtion is named after the town Copperhill, TN for which prominent rock exposures can be found.",
+          "Here is some information about Copperhill Formation. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Copperhill Formation",
         "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "Named for Elkmont TN, Elkmont Sandstone is a fine-grained sandstone that weathers a rusty-red color. Elkmont Sandstone occurs from Greenbriar Pinnacle west to Chilhowee Lake, and from Cove Mountain south to the mountain south of Cades Cove. The characteristic outcrops of Elkmont Sandstone can best be observed along the Little River.",
+          "Here is some information about Elkmont Sandstone. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Elkmont Sandstone",
         "img": "http://via.placeholder.com/150x150"
       },
@@ -264,7 +265,7 @@
       },
       {
         "info":
-          "Jonesboro Limestone is a fine-grained limestone that is bluish-grey in color. When observed closely, one might see thin wavy ribbons of clay and the occasional  fossils. Jonesboro Limestone is best observed in Tuckaleechee Cove, where more than 1,500 feet (457 meters) of  limestone is exposed.",
+          "Here is some information about Jonesboro Limestone. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Jonesboro Limestone",
         "img": "http://via.placeholder.com/150x150"
       },
@@ -290,7 +291,7 @@
       },
       {
         "info":
-          "Metcalf Phyllite, is a type of metamorphic slate rock.  Although very similar both chemically and in appearance to Pigeon Siltstone, Metcalf Phyllite is characterized by a more lustrous gray-green color. Prominent outcrops of Metcalf Phyllite  can be observed along the Little River, from Metcalf Bottoms west to Cades Cove.",
+          "Here is some information about Metcalf Phyllite. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Metcalf Phyllite",
         "img": "http://via.placeholder.com/150x150"
       },
@@ -331,19 +332,19 @@
       },
       {
         "info":
-          "Name after rock outcroppings along the Little Pigeon River, Pigeon Siltstone is a metamorphic siltstone that is greenish-gray in color and marked by light and dark layers. Pigeon Siltstone found in the northern reaches of the park tends to be more green, while in the south it appears darker. Pigeon Siltstone shares many lithographic characteristics with Metcalf Phyllite but is generally duller in appearance. ",
+          "Here is some information about Pigeon Siltstone. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Pigeon Siltstone",
         "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "Named after the rocks found on Rich Butt Mountain,  Rich Butt Sandstone is  a sandstone that is characteristically layered with thin lines of dark metamorphic siltstone. One can easily observe characteristic outcrops of Rich Butt Sandstone on the southeast side of Big Creek near Mount Sterling.",
+          "Here is some information about Rich Butt Sandstone. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Rich Butt Sandstone",
         "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "Roaring Fork Sandstone is a medium to fine-grained sandstone that appears greenish-gray in color. When fresh, Roaring Fork Sandstone appear green in color but weathers to brown and yellow clay-like soil. Exposures of this rock can be seen along Roaring Fork stream southeast of Gatlinburg, for which the sandstone is named after. ",
+          "Here is some information about Roaring Fork Sandstone. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Roaring Fork Sandstone",
         "img": "http://via.placeholder.com/150x150"
       },
@@ -398,13 +399,13 @@
       },
       {
         "info":
-          "The Wehutty Formation is primarily composed of schist. These rocks are dark in color and weather rusty-red. One can clearly observe the charasticly dark and rusty rocks in roadcuts along Lakeshore Drive.  The Wehutty Formation is somewhat similar in appearance to the Anakeesta Formation.",
+          "Here is some information about Wehutty Formation. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Wehutty Formation",
         "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "The Wilhite Formation is primarily composed of fine-grained shale, siltstone, and slate. The rocks in the eastern range of this formation typically have thin layers of sandstone, limestone while rocks in the west have thin layers of carbonate rocks. This formation was named after exposed rock found along Wilhite Creek.",
+          "Here is some information about Wilhite Formation. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Wilhite Formation",
         "img": "http://via.placeholder.com/150x150"
       }
@@ -582,13 +583,13 @@
         "info":
           "Here is some information about Excessively drained. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Excessively drained",
-        "img": "soildrainage/cat_soildrain_excessive.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
           "Here is some information about Moderately well drained. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Moderately well drained",
-        "img": "soildrainage/cat_soildrain_moderate_well.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
@@ -600,31 +601,31 @@
         "info":
           "Here is some information about Poorly drained. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Poorly drained",
-        "img": "soildrainage/cat_soildrain_poor.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
           "Here is some information about Somewhat excessively drained. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Somewhat excessively drained",
-        "img": "soildrainage/cat_soildrain_somewhat_excess.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
           "Here is some information about Somewhat poorly drained. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Somewhat poorly drained",
-        "img": "soildrainage/cat_soildrain_somewhat_poor.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
           "Here is some information about Very poorly drained. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Very poorly drained",
-        "img": "soildrainage/cat_soildrain_very_poor.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
           "Here is some information about Well drained. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Well drained",
-        "img": "soildrainage/cat_soildrain_well.jpg"
+        "img": "http://via.placeholder.com/150x150"
       }
     ],
     "type": "categorical",
@@ -798,21 +799,21 @@
     "subcategories": [
       {
         "info":
-          "When 20% or less than the forest floor is visible, the understory density is classified as heavy. Common evergreen shrub species found in the understory are rhododendron (rhododendron spp.), mountain laurel (Kalmia latifolia), hemlock (Tsuga canadensis), white pine (Pinus strobus), hard pine species (Pinus spp.), Fraser fir (Abies fraseri), red spruce (Picea rubens) and dog hobble (Leucothoe spp.).",
+          "Here is some information about Heavy. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Heavy",
-        "img": "understory/cat_understory_heavy.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "When %50 or more of the forest floor is visible, the understory density is classified as light. Common evergreen shrub species found in the understory are rhododendron (rhododendron spp.), mountain laurel (Kalmia latifolia), hemlock (Tsuga canadensis), white pine (Pinus strobus), hard pine species (Pinus spp.), Fraser fir (Abies fraseri), red spruce (Picea rubens) and dog hobble (Leucothoe spp.).",
+          "Here is some information about Light. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Light",
-        "img": "understory/cat_understory_light.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "When 20% to 50% of the forest floor is visible, the understory density is classified as medium. Common evergreen shrub species found in understory are rhododendron (rhododendron spp.), mountain laurel (Kalmia latifolia),  hemlock (Tsuga canadensis), white pine (Pinus strobus), hard pine species (Pinus spp.), Fraser fir (Abies fraseri), red spruce (Picea rubens) and dog hobble (Leucothoe spp.).",
+          "Here is some information about Medium. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Medium",
-        "img": "understory/cat_understory_med.jpg"
+        "img": "http://via.placeholder.com/150x150"
       }
     ],
     "ranges": [
@@ -1155,7 +1156,7 @@
     "type": "categorical"
   },
   "con_slope": {
-    "info": "The steepness of a surface of the earth. In geography, slope describes the angle of the Earth’s surface in relationship to the horizon line. The greater this angle is, the steeper the slope of the landscape. An excellent example of a steep slope in the GSMNP is the knife-edged backbone of Chimney Tops.",
+    "info": "The steepness of a surface of the earth.",
     "subcategories": [],
     "name": "Slope",
     "related-species": [
@@ -1321,15 +1322,14 @@
       ]
     ],
     "ranges": [
-      "0\u00b0 - 26.7\u00b0",
-      "26.7\u00b0 - 53.4\u00b0",
-      "53.4\u00b0 - 80.1\u00b0"
+      "0\u00b0, 26.7\u00b0",
+      "26.7\u00b0, 53.4\u00b0",
+      "53.4\u00b0, 80.1\u00b0"
     ],
-    "type": "continuous",
-    "img": "http://via.placeholder.com/150x150"
+    "type": "continuous"
   },
-  "con_avg_yearly_rainfall": {
-    "info": "The average amount of rain that falls in a year. In the GSMNP, the average amount of rain that falls in a year varies greatly depending on season, location, and elevation. The average yearly rainfall at low elevations in the park measure approximately 55 inches (140 centimeters) per year while rainfall at higher elevation can exceed 85 inches (216 centimeters) per year. Some mountain peaks in the GSMNP receives more annual rainfall than anywhere else in the country with the exception of the areas in the Pacific Northwest.",
+  "cat_avg_yearly_rainfall": {
+    "info": "The average amount of rain that falls in a year.",
     "subcategories": [],
     "name": "Avg Yearly Rainfall",
     "related-species": [
@@ -1494,13 +1494,12 @@
         "Insect"
       ]
     ],
-    "ranges": ["49\" - 64.3\"", "64.3\" - 79.7\"", "79.7\" - 95\""],
-    "type": "continuous",
-    "img": "continuous/cont_avg_year_rainfail.jpg"
+    "ranges": ["49\", 64.3\"", "64.3\", 79.7\"", "79.7\", 95\""],
+    "type": "continuous"
   },
-  "con_solar_rad": {
+  "con_direct_solar_radiation": {
     "info":
-      "The amount of light traveling in a straight line from the sun down to the surface of the earth. Direct solar radiation, sometimes known as direct beam solar radiation, refers to the amount of light traveling directly from the sun to the surface of the Earth measure by kilowatt-hours per square meter (kWh/m2).  The amount of solar radiation can vary depending on factors such as geographic location, time of day, season, geography, and weather. Atmospheric conditions can reduce direct radiation by 10% on clear days and by almost 100% during cloudy days.",
+      "The amount of light traveling in a straight line from the sun down to the surface of the earth.",
     "subcategories": [],
     "name": "Direct Solar Radiation",
     "related-species": [
@@ -1666,15 +1665,14 @@
       ]
     ],
     "ranges": [
-      "1K - 700K WH/m^2",
-      "700K - 1400K WH/m^2",
-      "1400K - 2100K WH/m^2"
+      "1K, 700K WH/m^2",
+      "700K, 1400K WH/m^2",
+      "1400K, 2100K WH/m^2"
     ],
-    "type": "continuous",
-    "img": "continuous/cont_direct_solar_radiation.jpg"
+    "type": "continuous"
   },
   "con_elevation": {
-    "info": "Height above sea level. In geography, elevation is the measurement of a specific geographical location according to its height above or below sea level. Elevations in the park range from 876 feet (267 meters) above sea level at Abrams Creek to 6,643 feet (2,025 meters) above sea level at Clingmans Dome. A difficult hike to the summit of Mt. Sterling via the Baxter Creek Trail will result in 4,200 feet  (1,280 meters) total elevation gain from start to finish.",
+    "info": "Height above sea level.",
     "subcategories": [],
     "name": "Elevation",
     "related-species": [
@@ -1839,9 +1837,8 @@
         "Fish"
       ]
     ],
-    "ranges": ["265.7m - 852m", "852m - 1438.3m", "1438.3m - 2024.6m"],
-    "type": "continuous",
-    "img": "continuous/cont_elevation.jpg"
+    "ranges": ["265.7m, 852m", "852m, 1438.3m", "1438.3m, 2024.6m"],
+    "type": "continuous"
   },
   "vegetation": {
     "info": "Types of forests.",
@@ -1850,62 +1847,62 @@
         "info":
           "Here is some information about Alluvial vegetation. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Hardwood Cove",
-        "img": "vegetation/cat_veg_alluvial.jpg",
+        "img": "http://via.placeholder.com/150x150",
         "remove": "true"
       },
       {
         "info":
-          "As the name suggest, grassy balds are treeless clearings covered by grasses, sedges, rushes, and forbs. These exposed environments are an important habitat for vegetation that thrives in full sun, such as mountain oat grass (Danthonia compressa Austin ex Peck). In total, grassy balds make up less than 1% of the GSMNP and without regular maintenance this rare feature of the park may easily become overgrown with trees and shrubs.",
-        "name": "Grassy Bald",
-        "img": "vegetation/cat_veg_grassy_bald.jpg"
-      },
-      {
-        "info":
-          "Accounting for only for 1% of the GSMNP total area, Heath Balds are rare communities of thick shrubland dominated by rhododendron catawbiense (catawba rhododendron). Heath balds occur on exposed slopes and rocky outcrops above 4,150 feet (1,265 meters) in elevation. Although the origins of this ecological community is somewhat of a mystery, there is a correlation between the occurrence of heath balds and burned sites, old-growth conditions, and acidic rock.",
-        "name": "Heath Bald",
+          "Here is some information about Chestnut oak. For example, where it encompasses, how important it is to species in general, etc.",
+        "name": "Grass",
         "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "Hemlock Forests are stands of coniferous trees composed mostly of eastern hemlock (Tsuga canadensis) and sometimes eastern white pine (Pinus strobus.) This forest type typically occurs on low, protected slopes with high moisture levels. Hemlock forest are evergreen and have dense canopies that provide a cool and shady habitat for wildlife. Although hemlock forests only account for a small percentage of the GSMNP overall forest cover, the Eastern Hemlock tree is commonly found across a wide spectrum of ecological communities within the park. These forests have seen widespread mortality due to the non-native insect hemlock wooly adelgid.",
+          "Here is some information about Evergreen Shrub. For example, where it encompasses, how important it is to species in general, etc.",
+        "name": "Heath",
+        "img": "http://via.placeholder.com/150x150"
+      },
+      {
+        "info":
+          "Here is some information about Floodplain. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Hemlock",
-        "img": "vegetation/cat_veg_hemlock.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "High Elevation Hardwood Forests refers to a class of several different types of hardwood forests growing in a range from roughly 3,400 feet to 5,400 feet (1,035 meters to 1,645 meters) in elevation. Collectively, these hardwood forests account for 24% of the GSMNP total area and include communities of high elevation oak forests, forested bolderfields, and beech gap forests. Due to beech bark disease, an exotic insect-fungal pathogen complex infecting American beech (Fagus grandifolia), beech gap forests are one of the most threatened ecological communities in southern Appalachian.",
+          "Here is some information about Hemlock. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "High Hardwood",
-        "img": "vegetation/cat_veg_north_hardwood_acid_hardwood_forest.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "Floodplain Forests, also known as Montane Alluvial Forests, are ecological communities found below elevations of 3,000 feet (915 meters) along streams, narrow rocky floodplains, and river islands.  Some species that are likely to occur in this forest type include American sycamore (Platanus occidentalis), tulip poplar (Liriodendron tulipifera), eastern hemlock (Tsuga canadensis,) and rosebay rhododendron (Rhododendron maximum.)  Accounting for approximately 1% of GSMNP total area, floodplain forests are a rarity in southern Appalachia and are further jeopardized by alterations to hydrology and roads.",
+          "Here is some information about High elevation beech. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Montane Alluvial",
-        "img": "vegetation/cat_veg_flood_plain.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "The most common forest community found in GSMNP are Oak-Hickory Forests. Common tree species include chestnut oak (Quercus montana), scarlet oak (Quercus coccinea), northern red oak (Quercus rubra), white oak (Quercus alba), hickory (Carya), red maple (Acer rubrum), eastern white pine (Pinus strobus), and tulip poplar (Liriodendron tulipifera). These forests occur within a wide elevations range, from 1,115 feet (340 meters)  to 4,500 feet (1,370 meters), and account for 34% of the parks total area.  Prior to the radical change brought by the chestnut blight in the 1940’s, American chestnut (Castanea dentata)  was a dominant species in Oak-Hickory forests. Fire suppression and other stressors have also dramatically changed this type of forest community.",
+          "Here is some information about High elevation red/white oak. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Oak",
-        "img": "vegetation/cat_veg_chestnut_oak.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "Yellow pine (Pinus echinata), White pine (Pinus strobus), chestnut oak (Quercus montana), scarlet oak (Quercus coccinea), and white oak (Quercus alba) are some of the most common species found in Pine-Oak Forests. These forests communities account for roughly 11% of the park area and occur within a wide range, from 900 feet (275  meters)  to 4,500 feet (1,370 meters). The establishment, health, and maintenance of Pine-Oak Forests depend on frequent fires. Due to a century of fire suppression and other stressors such as the invasive pine beetle, Pine-Oak Forests and the endemic species that depend on them are at risk of decline. ",
+          "Here is some information about Montane cave. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Pine oak",
-        "img": "vegetation/cat_veg_yellow_pine_forest.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "Accounting for roughly 3% of the park’s total area, Spruce-fir Forests occur at the highest elevations in the GSMNP. These high elevations have a climate that resemble the cold, harsh, and wet climate found in areas of Maine and Quebec, Canada. Red spruce (Picea rubens) and fraser fir (Abies fraseri) are the dominant trees in this forest type. Other species found in this boreal forest habitat  include yellow birch (Betula alleghaniensis), mountain-ash (Sorbus americana), hobblebush (Viburnum lantanoides), and several rare and endemic species such as the spruce-fir moss spider (Microhexura montivaga.)",
+          "Here is some information about Montane oak-hickory. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Spruce fir",
-        "img": "vegetation/cat_veg_spruce_fir.jpg"
+        "img": "http://via.placeholder.com/150x150"
       },
       {
         "info":
-          "When land altered by destructive activities (such as agriculture or logging) is left undisturbed, fields and clearcuttings quickly regenerate into flourishing new growth stands of opportunistic plant species. This forest type is known as Early Successional Forest and is dominated by black locust (Robinia pseudoacacia), virginia pine (Pinus virginiana), white pine (Pinus strobus), and black birch (Betula lenta.)  Early Successional Forest accounts for roughly 4% of the GSMNP total area. Many of these young forests are growing were Hardwood Cove or Floodplain Forests historically grew and might mature back into similar ecological communities overtime. ",
+          "Here is some information about Northern acid hardwood. For example, where it encompasses, how important it is to species in general, etc.",
         "name": "Successional",
-        "img": "vegetation/cat_veg_successional_hardwood.jpg"
+        "img": "http://via.placeholder.com/150x150"
       }
     ],
     "type": "categorical",
@@ -2074,7 +2071,7 @@
     ]
   },
   "con_aspect": {
-    "info": "The compass bearing a given slope is facing from 0-360. In geography, aspect describes the cardinal direction a particular slope is facing. If a slope is facing south, it has an aspect of 180°. A slope in the Northern Hemisphere with a southern aspect will receive more exposure to the sun than a slope facing north. The reverse is true for the Southern Hemisphere. Due to this directional relationship to the sunlight, the aspect of a slope can greatly influence factors such as temperature, humidity, and plant distribution. ",
+    "info": "The compass bearing a given slope is facing from 0-360.",
     "subcategories": [],
     "name": "Aspect",
     "related-species": [
@@ -2240,11 +2237,10 @@
       ]
     ],
     "ranges": [
-      "0\u00b0 - 120\u00b0",
-      "120\u00b0 - 240\u00b0",
-      "240\u00b0 - 360\u00b0"
+      "0\u00b0, 120\u00b0",
+      "120\u00b0, 240\u00b0",
+      "240\u00b0, 360\u00b0"
     ],
-    "type": "continuous",
-    "img": "continuous/cont_aspect.jpg"
+    "type": "continuous"
   }
 }
